@@ -12,9 +12,6 @@
 name = input("enter your name: ")
 score = int(input("enter your score: "))
 department = input("enter your department: ")
-
-c = score / 10
-print("my name is", name)
-print("my score is", c)
-print("my department is", department)
-print(c)
+print("my name is",name,"domaru")
+print("my score is",score/10,"/10")
+print("my department is",department)
