@@ -1,0 +1,7 @@
+#a = 10
+#b = 20 
+#print(a+b)
+
+b = "marvel"
+print(type(b))
+
