@@ -1,9 +1,8 @@
 
-
-if(True):
-    print("peter parker") 
-else:
-    print("spider man")
+#if(True):
+    #print("peter parker") 
+#else:
+    #print("spider man")
     
 
 #this is what we call as comparison operator, it will return boolean value either true or false
@@ -14,3 +13,11 @@ else:
     #print("kannukulla plays")
 #else:
    # print("singari plays")
+
+megna = input()
+
+if megna == "dead":
+    print("surya weds priya")
+else:
+    print("surya weds megna")
+    
