@@ -1,7 +1,9 @@
+
+
 if(True):
-    print("parthiban")
+    print("peter parker") 
 else:
-    print("leo")
+    print("spider man")
     
 
 #this is what we call as comparison operator, it will return boolean value either true or false
