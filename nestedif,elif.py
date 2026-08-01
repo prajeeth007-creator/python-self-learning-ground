@@ -7,6 +7,8 @@
    # print("good try kid")
 #else:
    # print("better luck next time")
+
+#program ends here ---------------------------------------------------------------------------
    
    
 #income = int(input("enter the input:"))
@@ -16,6 +18,8 @@
 #else:
    # print("your not eligible for scholarship")
    
+#program ends here ---------------------------------------------------------------------------
+   
 #number = int(input("enter the number:"))
 
 #if number%2 == 0 and number%5 == 0:
@@ -23,11 +27,21 @@
 #else:
    # print("your number is not divisible by 2 and 5")
    
-number = int(input("enter the number:"))
-if number%2 == 0:
-    print("your number is even")
+#this program ends here --------------------------------------------------------------------
+   
+#number = int(input("enter the number:"))
+#if number%2 == 0:
+   # print("your number is even")
+#else:
+    #print("your number is odd")
+
+#this progam ends here ----------------------------------------------------------------------
+
+mark = int(input("enter the mark:"))
+if(mark <35):
+    print("poor student")
+elif(mark > 35 and mark<70):
+    print("average student")
 else:
-    print("your number is odd")
-    
-    
-             
+    print("good student")
+          
