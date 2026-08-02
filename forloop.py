@@ -1,3 +1,3 @@
 for i in range(1, 11):
-    print(i,"x2",i*5)
+    print(i,"x5=",i*5)
     
