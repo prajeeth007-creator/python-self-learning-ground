@@ -49,7 +49,7 @@
 a = int(input("enter the number:"))
 b = int(input("enter the number:"))
 
-operation = input("add/sub/multiply /div:")
+operation = input("add/sub/multiply/div:")
 
 if (operation == "add"):
    print(a+b)
