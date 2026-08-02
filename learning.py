@@ -16,8 +16,19 @@
 
 #program ends here ---------------------------------------------------------------------------
 
-score = int(input("enter your score"))
-if score >= 70:
-    print ("your eligible")
+#score = int(input("enter your score"))
+#if score >= 70:
+  #  print ("your eligible")
+#else:
+   # print("your not eligible")
+
+#program ends here ---------------------------------------------------------------------------
+
+salary = int(input("enter your salary:"))
+age = int(input("enter your age:"))
+
+if (salary > 20000 or age <25):
+    print("your eligible for loan")
 else:
-    print("your not eligible")
+    print("your not eligible for loan")
+    
