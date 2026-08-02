@@ -37,11 +37,36 @@
 
 #this progam ends here ----------------------------------------------------------------------
 
-mark = int(input("enter the mark:"))
-if(mark <35):
-    print("poor student")
-elif(mark > 35 and mark<70):
-    print("average student")
+#mark = int(input("enter the mark:"))
+#if(mark <35):
+   # print("poor student")
+#elif(mark > 35 and mark<70):
+   # print("average student")
+#else:
+    # print("good student"
+    
+    
+a = int(input("enter the number:"))
+b = int(input("enter the number:"))
+
+operation = input("add/sub/multiply /div:")
+
+if (operation == "add"):
+   print(a+b)
+elif (operation == "sub"):
+   print(a-b)
+elif(operation == "multiply"):
+   print(a*b)
+elif(operation == "div"):
+   print(a/b)
 else:
-    print("good student")
+   print("invalid operation") 
+   
+   
+
+
+   
+
+
+        
           
