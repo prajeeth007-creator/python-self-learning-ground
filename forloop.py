@@ -27,10 +27,19 @@
 
 #problem ends here ---------------------------------------------------------------------------
 
-count = 0
-for i in range(1,101):
-    if(i%5 == 0 and i%3 == 0):
+#count = 0
+#for i in range(1,101):
+    #if(i%5 == 0 and i%3 == 0):
        
-        count = count + 1
+     #   count = count + 1
         
-print(count)
+#print(count)
+
+#program ends here ---------------------------------------------------------------------------
+
+
+sum = 0
+
+for i in range(1,6):
+    sum = sum +i
+print("total sum:",sum)
