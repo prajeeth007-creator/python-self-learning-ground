@@ -1,3 +1,3 @@
-for i in "loki":
+for i in range(5):
     print(i)
     
