@@ -12,14 +12,15 @@
 
 #program ends here ---------------------------------------------------------------------------
 
-count = 0
+e_count = 0
+o_count = 0
 for i in range(1,11):
     if(i%2 == 0):
         print(i,"even number")
-        count = count + 1
+        e_count = e_count + 1
     else:
         print(i,"odd number")
-        count = count + 1
+        o_count = o_count + 1
 
-print("total even numbers:", count)
-print("total odd numbers:", count)
+print("total even numbers:", e_count)
+print("total odd numbers:", o_count)
