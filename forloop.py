@@ -45,7 +45,10 @@
 #print("total sum:",sum)
 #program ends here ---------------------------------------------------------------------------
 
-a =["loki","captainamerica","thor","ironman","spiderman","hulk","blackwidow","hawkeye","antman","doctorstrange"]
 
-for i in a:
-    print(i)
+a = []
+for i in range(10):
+    num = int(input("enter the number: "))
+    a.append(num)
+print(a)
+    
