@@ -38,8 +38,14 @@
 #program ends here ---------------------------------------------------------------------------
 
 
-sum = 0
+#sum = 0
 
-for i in range(1,6):
-    sum = sum +i
-print("total sum:",sum)
+#for i in range(1,6):
+ #   sum = sum +i
+#print("total sum:",sum)
+#program ends here ---------------------------------------------------------------------------
+
+a =["loki","captainamerica","thor","ironman","spiderman","hulk","blackwidow","hawkeye","antman","doctorstrange"]
+
+for i in a:
+    print(i)
