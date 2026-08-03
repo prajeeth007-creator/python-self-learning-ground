@@ -45,11 +45,13 @@
 #print("total sum:",sum)
 #program ends here ---------------------------------------------------------------------------
 
-
 a = []
-print("enter three numbers:")
-for i in range(3):
-    n = input("enter the number:")
-    a.append(n)
+for i in range (5):
+    num = int(input("enter the number:"))
+    a.append(num)
 print(a)
-    
+
+count = 0
+for i in a:
+    count = count+i
+print(count)
