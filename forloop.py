@@ -47,8 +47,9 @@
 
 
 a = []
-for i in range(10):
-    num = int(input("enter the number: "))
-    a.append(num)
+print("enter three numbers:")
+for i in range(3):
+    n = input("enter the number:")
+    a.append(n)
 print(a)
     
