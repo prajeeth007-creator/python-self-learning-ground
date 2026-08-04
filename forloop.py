@@ -57,11 +57,18 @@
 #print(sum)
 #program ends here__________________________________________________________________________
 
-sum = 0
-a = [1,2,3,4,5,6,7]
-for i in a:
-    sum = sum + i
+#sum = 0
+#a = [1,2,3,4,5,6,7]
+#for i in a:
+    #sum = sum + i
 
-print(sum)
+#print(sum)
+
+#prgram ends here _______________________________________________________________________
+a = []
+for i in range(1,7):
+    num = int(input("enter the nukmber:"))
+    a.append(num)
+    print("cube is:" + str(i*i*i))
    
     
