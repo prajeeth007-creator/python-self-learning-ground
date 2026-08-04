@@ -45,13 +45,23 @@
 #print("total sum:",sum)
 #program ends here ---------------------------------------------------------------------------
 
-sum = 0
-a = []
-for i in range(1,11):
-    num = int(input("enter the value"+str(i)+":"))
-    a.append(num)
-    print(a)
+#sum = 0
+#a = []
+#for i in range(1,7):
+ #   num = int(input("enter the value"+str(i)+":"))
+  #  a.append(num)
+   # print(a)
 
-for i in a :
+#for i in a :
+ #   sum = sum + i
+#print(sum)
+#program ends here__________________________________________________________________________
+
+sum = 0
+a = [1,2,3,4,5,6,7]
+for i in a:
     sum = sum + i
+
 print(sum)
+   
+    
