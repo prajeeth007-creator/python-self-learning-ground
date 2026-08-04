@@ -52,3 +52,6 @@ for i in range(1,11):
     a.append(num)
     print(a)
 
+for i in a :
+    sum = sum + i
+print(sum)
