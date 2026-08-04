@@ -45,13 +45,10 @@
 #print("total sum:",sum)
 #program ends here ---------------------------------------------------------------------------
 
+sum = 0
 a = []
-for i in range (5):
-    num = int(input("enter the number:"))
+for i in range(1,11):
+    num = int(input("enter the value"+str(i)+":"))
     a.append(num)
-print(a)
+    print(a)
 
-count = 0
-for i in a:
-    count = count+i
-print(count)
