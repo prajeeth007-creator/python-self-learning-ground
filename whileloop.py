@@ -1,5 +1,5 @@
-i = -100
-while (i<=5):
+i = 10
+while (i<201):
     print(i)
-    i = i+1
+    i = i+10
     
