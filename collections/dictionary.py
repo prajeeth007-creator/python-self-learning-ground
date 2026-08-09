@@ -13,6 +13,6 @@ a = {"hello": "hi",
     "how are you": "i'm fine",
     "what's you age": "20"}
 
-a["hello"] = "hey"
+a.update({"hello":"hey"})
 
-print(a)
+print(a["hello"])
