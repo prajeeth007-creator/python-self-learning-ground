@@ -4,8 +4,15 @@
 #painter()
 
 def sum():
-    a=int(input())
-    b=int(input())
+    print("addition")
+    a=int(input("enter the number:"))
+    b=int(input("enter the number"))
     print(a+b)
-print("spidey")
+def sub():
+    print("subtraction")
+    a=int(input("enter the number:"))
+    b=int(input("enter the number"))
+    print(a-b)
 sum ()
+sub ()
+
