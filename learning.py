@@ -24,16 +24,15 @@
 
 #program ends here ---------------------------------------------------------------------------
 
-salary = int(input("enter your salary:"))
-age = int(input("enter your age:"))
+    
+tamil = int(input("enter your tamil mark:"))
+english = int(input("enter your english mark:"))
+maths = int(input("enter your maths mark:"))
+science = int(input("enter your science mark:"))
+social = int(input("enter your social mark:"))
 
-if (salary > 25000 or age < 25):
-    loan = int(input("enter your loan amount"))
-    if(loan <= 50000):
-        print("your eligible for loan")
-    else:
-        print("maximum amount is 50000")
-    
+f = (tamil + english + maths + science + social)/5
+if f>= 35:
+   print("your pass")
 else:
-    print("your not eligible for loan:")
-    
+   print("your fail")
