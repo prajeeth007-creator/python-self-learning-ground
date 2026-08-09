@@ -1,5 +1,11 @@
-def painter() :
-    print("painting")
+#def painter() :
+ #   print("painting")
     
-painter()
+#painter()
 
+def sum():
+    a=int(input())
+    b=int(input())
+    print(a+b)
+print("spidey")
+sum ()
