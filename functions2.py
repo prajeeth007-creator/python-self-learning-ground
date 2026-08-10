@@ -1,4 +1,4 @@
 def painter(msg):
-    print("i am",msg)
+    print("i am an",msg)
     
-print()
+painter("artis")
