@@ -1,6 +1,14 @@
-def sum():
-    a = int(input("enter the number:"))
-    b = int(input("enter the value:"))
-    print(a+b)
+#def painter(msg):
+    #print("i am",msg)
     
-sum()
+#painter("spiderman")
+
+
+def oddeven(b):
+    if(b%2 == 0):
+        ptint("this number is even")
+    else:
+        print("this number is odd")
+        
+a = int(input("enter a:"))
+oddeven(a)
