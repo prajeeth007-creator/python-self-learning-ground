@@ -1,4 +1,6 @@
-def painter(msg):
-    print("i am an",msg)
+def sum():
+    a = int(input("enter the number:"))
+    b = int(input("enter the value:"))
+    print(a+b)
     
-painter("artis")
+sum()
