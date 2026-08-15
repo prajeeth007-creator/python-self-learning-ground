@@ -33,7 +33,10 @@
 #when u append instead extend look what happens 
 #program ends here 
 
-a = [1,2,3,4,5]
-b = [6,7,8,9,10]
-a.extend(b)
-print(a)
+#a = [1,2,3,4,5]
+#b = [6,7,8,9,10]
+#a.extend(b)
+#print(a)
+
+#program ends here-------------------------------
+

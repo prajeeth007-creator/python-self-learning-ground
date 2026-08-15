@@ -9,10 +9,10 @@
 #here "hello is key" and "hi is value" we can call it key value pair 
 #program ends here----------------------------------------
 
-a = {"hello": "hi",
-    "how are you": "i'm fine",
-    "what's you age": "20"}
+#a = {"hello": "hi",
+    #"how are you": "i'm fine",
+    #"what's you age": "20"}
 
-a.update({"hello":"hey"})
+#a.update({"hello":"hey"})
 
-print(a["hello"])
+#print(a["hello"])
