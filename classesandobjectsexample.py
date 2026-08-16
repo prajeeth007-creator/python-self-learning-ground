@@ -22,14 +22,15 @@
 
 
 class colour():
-    def __init__(self):
-        colour = "red"
+    def __init__(self,col):
+        self.colour = col
+        
         
     def display(self):
         print("fruit colour:",self.colour)
         
-fruit = colour()
-fruit.colour = "black"
+fruit = colour("orange")
+
 
 fruit.display()
 
