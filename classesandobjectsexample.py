@@ -21,17 +21,40 @@
 #program ends here------------------------
 
 
-class colour():
-    def __init__(self,col):
-        self.colour = col
+#class colour():
+   # def __init__(self,col):
+   #     self.colour = col
         
         
-    def display(self):
-        print("fruit colour:",self.colour)
+  #  def display(self):
+ #       print("fruit colour:",self.colour)
         
-fruit = colour("orange")
+#fruit = colour("orange")
 
 
-fruit.display()
+#fruit.display()
 
     
+#program ends here---------------------------
+
+
+class classroom():
+     
+    def __init__(self):
+        studentname = ""
+        studentrollnumber = 0
+    def display(self):
+        print("name:",self.name)
+        print("rollnu:",self.rollnu)
+        
+stud1 = classroom()
+stud1.name = "krish"
+stud1.rollnu = 21
+
+stud2 = classroom()
+stud2.name = "ben"
+stud2.rollnu = 10
+
+stud2.display()
+stud1.display()
+
