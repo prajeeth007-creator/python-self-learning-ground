@@ -4,9 +4,15 @@ class avengers():
         self.lead = "captain america"
         self.god = "thor"
         
+    def display(self):
+        print("name:",self.tech)
+        print("name:",self.lead)
+        
 bigpotatose = avengers()
 bigpotatose.tech ="tony"
 bigpotatose.lead = "steve"
-print(bigpotatose.tech)
-print(bigpotatose.lead)
+bigpotatose.display()
+
+
+
         
