@@ -1,7 +1,7 @@
 class student():
     def __init__(self):
-        self.name = "krish"
-        self.rollnu = 21
+        self.name = ""
+        self.rollnu = 0
         
     def display(self):
         print("name:",self.name)
@@ -10,8 +10,14 @@ class student():
 flute = student()
 flute.name = "krish"
 flute.rollnu = 21
-flute.display()
 
-villain = student()
-flute.name = "kamsa"
+flower = student()
+flower.name = "radha"
+flower.rollnu = 22
+
+flute.display()
+flower.display()
+
+
+
     
